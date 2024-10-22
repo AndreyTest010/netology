@@ -27,19 +27,16 @@ https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/hsrp_advanc
 На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 Ход работы:
+
 bash скрипт
 #!/bin/bash
-
-# Параметры
-WEB_SERVER="localhost"     # Адрес веб-сервера
-PORT=80                   # Порт, который будет проверяться
-INDEX_FILE="/var/www/html/index.html"  # Путь к файлу index.html
-
-# Проверка доступности веб-сервера
+WEB_SERVER="localhost"    
+PORT=80                   
+INDEX_FILE="/var/www/html/index.html"  
 if curl -s --head --connect-timeout 2 http://$WEB_SERVER:$PORT | grep "200 OK" > /dev/null && [ -f "$INDEX_FILE" ]; then
-    exit 0  # Веб-сервер работает и файл index.html существует
+    exit 0  
 else
-    exit 1  # Веб-сервер не доступен или файл index.html отсутствует
+    exit 1  
 fi
 
 --------------------------------------------------------------------------------------------------------------------------
