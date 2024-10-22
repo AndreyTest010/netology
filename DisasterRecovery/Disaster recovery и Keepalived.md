@@ -11,6 +11,9 @@
 На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
 ---
+
+https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/hsrp_advanced.pkt
+
 ![cisco](https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/screen/first.png)
 
 
