@@ -27,4 +27,7 @@ https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/hsrp_advanc
 На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 
+![vm1](https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/screen/keep1.jpg)
+![vm2](https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/screen/keep2.jpg)
+
 
