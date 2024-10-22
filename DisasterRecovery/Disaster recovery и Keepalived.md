@@ -11,7 +11,7 @@
 На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
 ---
-![cisco](https://github.com/AndreyTest010/netology/DisasterRecovery/blob/main/screen/first.png)
+![cisco](https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/screen/first.png)
 
 
 
