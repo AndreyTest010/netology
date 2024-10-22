@@ -29,6 +29,8 @@ https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/hsrp_advanc
 Ход работы:
 
 bash скрипт
+
+
 #!/bin/bash
 WEB_SERVER="localhost"    
 PORT=80                   
