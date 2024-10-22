@@ -42,7 +42,7 @@ else
 exit 1  
 fi
 ```
-
+![bash](https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/screen/bash.jpg)
 
 --------------------------------------------------------------------------------------------------------------------------
 keepalived конфигурационный файл
@@ -71,7 +71,7 @@ interval 3
 weight -2
 }
 ```
-
+![keepalived](https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/screen/keepalived.jpg)
 -------------------------------------------------------------------------------------------------------------------------
 
 Скриншоты
