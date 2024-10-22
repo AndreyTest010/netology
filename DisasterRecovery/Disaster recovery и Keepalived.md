@@ -30,7 +30,8 @@ https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/hsrp_advanc
 
 bash скрипт
 
-
+```
+Поле для вставки кода...
 #!/bin/bash
 WEB_SERVER="localhost"    
 PORT=80                   
@@ -40,6 +41,8 @@ exit 0
 else
 exit 1  
 fi
+```
+
 
 --------------------------------------------------------------------------------------------------------------------------
 keepalived конфигурационный файл
