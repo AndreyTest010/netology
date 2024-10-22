@@ -32,6 +32,7 @@ bash скрипт
 
 
 #!/bin/bash
+
 WEB_SERVER="localhost"    
 PORT=80                   
 INDEX_FILE="/var/www/html/index.html"  
