@@ -11,8 +11,8 @@
 На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
 ---
-![authorization](https://github.com/AndreyTest010/netology/Disaster Recovery. FHRP и Keepalived/blob/main/screenshot/first.jpeg)
-Disaster Recovery. FHRP и Keepalived/screenshot/first.jpeg
+![authorization](https://github.com/AndreyTest010/netology//blob/main/screenshot/first.png)
+
 
 
 
