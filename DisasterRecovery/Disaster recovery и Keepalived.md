@@ -31,16 +31,15 @@ https://github.com/AndreyTest010/netology/blob/main/DisasterRecovery/hsrp_advanc
 bash скрипт
 
 
-#!/bin/bash
-
-WEB_SERVER="localhost"    
-PORT=80                   
-INDEX_FILE="/var/www/html/index.html"  
-if curl -s --head --connect-timeout 2 http://$WEB_SERVER:$PORT | grep "200 OK" > /dev/null && [ -f "$INDEX_FILE" ]; then
-    exit 0  
-else
-    exit 1  
-fi
+-#!/bin/bash
+-WEB_SERVER="localhost"    
+-PORT=80                   
+-INDEX_FILE="/var/www/html/index.html"  
+-if curl -s --head --connect-timeout 2 http://$WEB_SERVER:$PORT | grep "200 OK" > /dev/null && [ -f "$INDEX_FILE" ]; then
+-    exit 0  
+-else
+-    exit 1  
+-fi
 
 --------------------------------------------------------------------------------------------------------------------------
 keepalived конфигурационный файл
